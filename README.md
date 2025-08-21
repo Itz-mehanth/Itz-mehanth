@@ -25,7 +25,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=itz-mehanth&show_icons=true&locale=en" alt="itz-mehanth" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&" alt="itz-mehanth" /></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Itz-mehanth/Itz-mehanth/output/github-snake-dark.svg" />
