@@ -19,7 +19,3 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=itz-mehanth" alt="itz-mehanth" /></a> </p>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=itz-mehanth&show_icons=true&locale=en&layout=compact" alt="itz-mehanth" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=itz-mehanth&show_icons=true&locale=en" alt="itz-mehanth" /></p>
-
