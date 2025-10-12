@@ -1,62 +1,126 @@
 <div align="center">
 
-<!-- Animated Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+There!+I'm+Mehanth+%F0%9F%91%8B;AI+%26+Web+Enthusiast+%F0%9F%A4%96;Building+The+Future+With+Code+%F0%9F%9A%80;Computer+Science+Engineering+Student+%F0%9F%8E%93" alt="Typing SVG" />
+<!-- EPIC Glitch Effect Animated Title -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=75&duration=1500&pause=1000&color=00F7F4&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=200&lines=%E2%9A%A1+MEHANTH+%E2%9A%A1;THE+CODE+ARCHITECT;AI+WIZARD+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F+WEB+SORCERER+%F0%9F%94%AE" alt="Epic Title" />
 
-<!-- Animated Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20To%20My%20Digital%20Space&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" width="100%"/>
+<!-- Matrix Rain Effect -->
 
-![Profile Views](https://komarev.com/ghpvc/?username=itz-mehanth&label=Profile%20Views&color=blueviolet&style=for-the-badge)
-[![GitHub Followers](https://img.shields.io/github/followers/itz-mehanth?label=Followers&style=for-the-badge&color=blue)](https://github.com/itz-mehanth)
-[![GitHub Stars](https://img.shields.io/github/stars/itz-mehanth?label=Stars&style=for-the-badge&color=yellow)](https://github.com/itz-mehanth)
+<!-- Animated Badges with Glow Effect -->
+<p>
+<img src="https://img.shields.io/badge/STATUS-LEGENDARY%20DEVELOPER-00ff41?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=000000&color=00ff41"/>
+<img src="https://img.shields.io/badge/POWER%20LEVEL-OVER%209000-ff0000?style=for-the-badge&logo=dragonframe&logoColor=white&labelColor=1a1a1a"/>
+<img src="https://img.shields.io/badge/COFFEE%20CONSUMED-∞%20CUPS-6f4e37?style=for-the-badge&logo=buymeacoffee&logoColor=white"/>
+</p>
+
+<!-- Live Metrics Dashboard -->
+<img src="https://komarev.com/ghpvc/?username=itz-mehanth&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/itz-mehanth?label=FOLLOWERS&style=for-the-badge&color=blue&logo=github"/>
+<img src="https://img.shields.io/github/stars/itz-mehanth?label=TOTAL+STARS&style=for-the-badge&color=yellow&logo=github"/>
+<img src="https://img.shields.io/badge/BUGS%20CREATED-0%20(LIES)-red?style=for-the-badge&logo=bugcrowd&logoColor=white"/>
+
+<!-- Epic Separator -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<div align="center">
 
-### 🚀 About This Space Cowboy
+## 🌌 WELCOME TO THE MATRIX 🌌
 
-```python
-class Mehanth:
-    def __init__(self):
-        self.username = "itz-mehanth"
-        self.role = "AI & Web Enthusiast"
-        self.location = "Chennai, India 🇮🇳"
-        self.education = "Computer Science Engineering"
-        self.current_focus = ["AI/ML", "Web Development", "Game Dev"]
-        self.life_motto = "Code. Create. Innovate. Repeat."
-    
-    def say_hi(self):
-        print("Let's build something legendary together!")
+</div>
 
-me = Mehanth()
-me.say_hi()
+```ascii
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ███╗   ███╗███████╗██╗  ██╗ █████╗ ███╗   ██╗████████╗██╗  ██╗           ║
+║   ████╗ ████║██╔════╝██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██║  ██║           ║
+║   ██╔████╔██║█████╗  ███████║███████║██╔██╗ ██║   ██║   ███████║           ║
+║   ██║╚██╔╝██║██╔══╝  ██╔══██║██╔══██║██║╚██╗██║   ██║   ██╔══██║           ║
+║   ██║ ╚═╝ ██║███████╗██║  ██║██║  ██║██║ ╚████║   ██║   ██║  ██║           ║
+║   ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝           ║
+║                                                                              ║
+║            🚀 AI ARCHITECT | CODE WARRIOR | INNOVATION DEALER 🚀            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-### 💫 Current Vibes
+<div align="center">
 
-- 🔭 **Building:** Next-gen AI applications & immersive web experiences
-- 🌱 **Learning:** Advanced ML algorithms, Three.js, and modern web architecture  
-- 🎯 **Goal 2025:** Ship 10 production-ready projects
-- 🎮 **Side Quest:** Creating indie games with Unity & Blender
-- ⚡ **Fun Fact:** I debug with print statements and I'm not ashamed
+<!-- Animated Stats Globe -->
+<img src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif" width="200">
+
+</div>
+
+<img align="right" alt="Coding Wizard" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+### ⚡ THE LEGEND BEHIND THE CODE
+
+```javascript
+const Mehanth = {
+    title: "The Code Alchemist 🧪",
+    location: "Chennai, India 🇮🇳",
+    education: "Computer Science Engineering",
+    currentMission: "Building AI that makes humans say 'WTF'",
+    
+    techSpells: {
+        languages: ["Python", "JavaScript", "Java", "C++", "C#", "C"],
+        frontend: ["React", "HTML5", "CSS3", "Three.js"],
+        backend: ["Node.js", "MongoDB", "Firebase"],
+        ai_ml: ["TensorFlow", "OpenCV", "Neural Networks"],
+        mobile: ["Flutter", "React Native"],
+        design: ["Figma", "Blender", "Unity"],
+        tools: ["Git", "Docker", "VS Code"]
+    },
+    
+    achievements: [
+        "🔥 Wrote first 'Hello World' and never looked back",
+        "🎯 Debugged production code in dreams",
+        "⚡ Can code in complete darkness",
+        "🧠 Thinks in binary, dreams in algorithms",
+        "🚀 Shipped projects that made seniors question reality"
+    ],
+    
+    currentlyDoing: () => {
+        return "Building the future, one commit at a time";
+    },
+    
+    futureGoals: ["Dominate AI", "Build Legendary Products", "Inspire Millions"],
+    
+    contact: {
+        email: "mehanth362@gmail.com",
+        challenge: "Think you can out-code me? Try me! 😎"
+    }
+};
+
+console.log(Mehanth.currentlyDoing());
+// Output: "Building the future, one commit at a time"
+```
+
+<br clear="right"/>
 
 ---
 
 <div align="center">
 
-## ⚡ Tech Arsenal
+## 🎯 CURRENT POWER LEVEL
 
-### 🔥 Languages
-<img src="https://skillicons.dev/icons?i=python,js,java,c,cpp,cs&theme=dark" />
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
 
-### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,react,nodejs,firebase,mongodb&theme=dark" />
+| 🎯 **SKILL** | 💪 **LEVEL** | 📈 **PROGRESS** |
+|:---:|:---:|:---:|
+| **AI/ML Mastery** | Expert | ████████████░░░░░░░░ 60% → ∞ |
+| **Full Stack Dev** | Advanced | ███████████████░░░░░ 75% → ∞ |
+| **Problem Solving** | Legendary | ████████████████████ 100% |
+| **Coffee Addiction** | MAX | ████████████████████ ∞% |
+| **Bug Creation** | Amateur | ██░░░░░░░░░░░░░░░░░░ 10% (We don't talk about this) |
 
-### 🤖 AI/ML & Tools
-<img src="https://skillicons.dev/icons?i=tensorflow,opencv,git,figma,blender,unity,flutter&theme=dark" />
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
 
 </div>
 
@@ -64,20 +128,67 @@ me.say_hi()
 
 <div align="center">
 
-## 📊 Live GitHub Analytics
+## 🔮 TECH ARSENAL - WEAPONS OF CHOICE
 
-<!-- Snake eating contributions -->
-![Snake animation](https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake-dark.svg)
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
 
-<!-- GitHub Stats Cards -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=itz-mehanth&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFF"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-mehanth&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFF"/>
+### ⚔️ LANGUAGES - THE SACRED SCROLLS
 
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=FFF" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/python/3776AB" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/javascript/F7DF1E" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/java/007396" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/cplusplus/00599C" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/c/A8B9CC" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/csharp/239120" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/typescript/3178C6" />
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-mehanth&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF" width="100%"/>
+### 🎨 FRONTEND - THE VISUAL MAGIC
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/react/61DAFB" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/html5/E34F26" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/css3/1572B6" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/threedotjs/000000" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/nextdotjs/000000" />
+
+### 🔧 BACKEND - THE POWER ENGINE
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/nodedotjs/339933" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/mongodb/47A248" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/firebase/FFCA28" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/express/000000" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/postgresql/4169E1" />
+
+### 🤖 AI/ML - THE BRAIN
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/tensorflow/FF6F00" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/opencv/5C3EE8" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/pytorch/EE4C2C" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/scikitlearn/F7931E" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/keras/D00000" />
+
+### 📱 MOBILE - POCKET POWER
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/flutter/02569B" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/dart/0175C2" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/android/3DDC84" />
+
+### 🎮 GAME DEV - THE PLAYGROUND
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/unity/FFFFFF" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/blender/F5792A" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/unrealengine/0E1128" />
+
+### 🛠️ TOOLS - THE UTILITY BELT
+
+<img height="50" width="50" src="https://cdn.simpleicons.org/git/F05032" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/github/181717" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/visualstudiocode/007ACC" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/docker/2496ED" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/figma/F24E1E" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/postman/FF6C37" />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 
 </div>
 
@@ -85,9 +196,32 @@ me.say_hi()
 
 <div align="center">
 
-## 🏆 Trophy Case
+## 📊 LIVE BATTLE STATISTICS
 
-<img src="https://github-profile-trophy.vercel.app/?username=itz-mehanth&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%"/>
+<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="300">
+
+<!-- Ultimate Stats Grid -->
+<table>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=itz-mehanth&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=FFFFFF&ring_color=00F7F4" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&theme=radical&hide_border=true&background=0D1117&stroke=00F7F4&ring=00F7F4&fire=FF6D00&currStreakLabel=FFFFFF&sideLabels=00F7F4&currStreakNum=FFFFFF&sideNums=00F7F4" width="100%"/>
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-mehanth&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=FFFFFF&langs_count=10" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+<!-- Activity Graph with Glow -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-mehanth&custom_title=MEHANTH'S%20CONTRIBUTION%20GRAPH&bg_color=0D1117&color=00F7F4&line=00F7F4&point=FF6D00&area_color=00F7F4&area=true&hide_border=true&theme=react-dark" width="100%"/>
+
+<!-- Metrics with Animation -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itz-mehanth&theme=radical" width="100%"/>
 
 </div>
 
@@ -95,22 +229,20 @@ me.say_hi()
 
 <div align="center">
 
-## 📈 Contribution Graph
+## 🏆 ACHIEVEMENT UNLOCKED - TROPHY VAULT
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=itz_mehanth&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFF&layout=compact" />
+<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="200">
 
-<!-- 3D Contribution Graph -->
-![3D Contribution](./profile-3d-contrib/profile-night-rainbow.svg)
+<img src="https://github-profile-trophy.vercel.app/?username=itz-mehanth&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=3&column=6&title=MultiLanguage,Commits,PullRequest,Issues,Repositories,Stars,Followers" width="100%"/>
 
-</div>
+<!-- Custom Achievement Badges -->
+<br><br>
 
----
-
-<div align="center">
-
-## 💻 Most Used Languages (Live)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-mehanth&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFF" />
+<img src="https://img.shields.io/badge/🔥_COMMITS-10K+-FF6D00?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/⚡_CONTRIBUTIONS-INFINITE-00F7F4?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/🎯_PROJECTS-LEGENDARY-FFD700?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/💪_PULL_REQUESTS-MERGED-00FF00?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/🐛_BUGS_FIXED-∞-FF0000?style=for-the-badge&labelColor=000000"/>
 
 </div>
 
@@ -118,10 +250,197 @@ me.say_hi()
 
 <div align="center">
 
-## 🎯 Pinned Repositories
+## 🐍 WATCH MY CONTRIBUTION SNAKE DEVOUR THE COMMITS!
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake.svg">
+</picture>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 LIVE CODING STATS - WAKATIME INTEGRATION
+
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=itz-mehanth&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=FFFFFF&layout=compact&langs_count=10&custom_title=Weekly%20Coding%20Stats" />
+
+<!-- Detailed Language Stats -->
+<br><br>
+
+```text
+🌞 Morning    ████████░░░░░░░░░░░░   35%
+🌆 Daytime    ████████████░░░░░░░░   50%
+🌃 Evening    ██████░░░░░░░░░░░░░░   25%
+🌙 Night      ████████████████░░░░   70%  <-- PEAK PERFORMANCE MODE
+```
+
+<!-- Productivity Chart -->
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itz-mehanth&theme=radical" width="400"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itz-mehanth&theme=radical" width="400"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎵 CURRENTLY VIBING TO
+
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=31l5of4aqf5z3ksdzrazflhfgq6a&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=00F7F4&bar_color_cover=true"/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="300">
+
+</div>
+
+---
+
+<div align="center">
+
+## 💬 DEVELOPER WISDOM OF THE DAY
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House"/>
+
+<br>
+
+<img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder&qColor=%2300F7F4&aColor=%23FFFFFF"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌐 CONNECT WITH THE LEGEND
+
+<img src="https://user-images.githubusercontent.com/74038190/212257481-9e4b5fc3-a1e3-4961-8e4f-0c2d8c2b38d7.gif" width="100">
+
+<br>
+
+<a href="https://www.linkedin.com/in/mehanth-776892279">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=plastic&logoWidth=30&labelColor=0077B5&color=00F7F4"/>
+</a>
+<a href="https://instagram.com/itz_mehanth">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F&color=00F7F4"/>
+</a>
+<a href="mailto:mehanth362@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836&color=00F7F4"/>
+</a>
 <a href="https://github.com/itz-mehanth">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itz-mehanth&repo=your-best-repo&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFF" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=00F7F4"/>
+</a>
+<a href="https://twitter.com">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&color=00F7F4"/>
+</a>
+
+<br><br>
+
+<!-- Animated Contact Cards -->
+<table>
+  <tr>
+    <td align="center" width="200">
+      <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="100">
+      <br><b>Let's Collaborate!</b>
+      <br>Open for innovative projects
+    </td>
+    <td align="center" width="200">
+      <img src="https://user-images.githubusercontent.com/74038190/216121919-60befe4d-11c6-4227-8992-35221d8b2345.png" width="100">
+      <br><b>Hire Me!</b>
+      <br>Available for freelance work
+    </td>
+    <td align="center" width="200">
+      <img src="https://user-images.githubusercontent.com/74038190/216121986-1a506a75-2381-41c2-baff-eeab94d83cef.png" width="100">
+      <br><b>Buy Me Coffee!</b>
+      <br>Fuel the code machine
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+
+---
+
+<div align="center">
+
+## 🔥 STREAK FIRE - NEVER STOP CODING
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&theme=radical&hide_border=true&background=0D1117&stroke=00F7F4&ring=FF6D00&fire=FF6D00&currStreakLabel=FFFFFF&sideLabels=00F7F4&currStreakNum=FFFFFF&sideNums=00F7F4&dates=FFFFFF" width="600"/>
+
+<br>
+
+### 📅 COMMIT CALENDAR HEATMAP
+
+<img src="https://ghchart.rshah.org/00F7F4/itz-mehanth" width="800"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎲 GITHUB METRICS - THE COMPLETE PICTURE
+
+<img src="https://metrics.lecoq.io/itz-mehanth?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&languages=1&lines=1&habits=1&achievements=1&notable=1&discussions=1&followup=1&isocalendar.duration=half-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.trim=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.from=organization&notable.repositories=false&discussions.categories=true&config.timezone=Asia%2FKolkata" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 💡 FUN FACTS & EASTER EGGS
+
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="400">
+
+```yaml
+fun_facts:
+  - "I can debug code faster than I can tie my shoelaces"
+  - "My commit messages are poetry in motion"
+  - "I've written more lines of code than text messages"
+  - "Coffee is my primary programming language"
+  - "I dream in algorithms and wake up with solutions"
+  - "My keyboard has PTSD from my typing speed"
+  - "I speak fluent Python, JavaScript, and Sarcasm"
+  
+easter_egg:
+  secret: "If you're reading this, you're awesome! ⭐"
+  reward: "Leave a star on my repos and I'll return the favor!"
+```
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌟 SUPPORT THE MISSION
+
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300">
+
+### Star the repos if you like what you see! ⭐
+
+<a href="https://github.com/itz-mehanth?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-00F7F4?style=for-the-badge&logo=github&logoColor=black&labelColor=181717"/>
+</a>
+
+<br><br>
+
+<!-- Sponsor Options -->
+<a href="https://www.buymeacoffee.com/mehanth">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+</a>
+<a href="https://ko-fi.com/mehanth">
+  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
 </a>
 
 </div>
@@ -130,56 +449,16 @@ me.say_hi()
 
 <div align="center">
 
-## 🌐 Connect & Collaborate
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=footer&text=Thanks%20For%20Visiting!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=65" width="100%"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=plastic&labelColor=0077B5)](https://www.linkedin.com/in/mehanth-776892279)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/itz_mehanth)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehanth362@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://github.com/itz-mehanth)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 
-</div>
+### 🎮 BOSS LEVEL ACHIEVEMENT UNLOCKED: YOU READ THE ENTIRE README! 🎮
 
----
+<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="200">
 
-<div align="center">
+<br>
 
-## 💭 Developer Quote
+### 💻 "First, solve the problem. Then, write the code." - John Johnson
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
-<div align="center">
-
-## 🎵 Currently Vibing To
-
-[![Spotify](https://novatorem-itz-mehanth.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
-
-</div>
-
----
-
-<div align="center">
-
-### 🐍 Watch My Contributions Get Eaten!
-
-<!-- This will be generated by GitHub Actions -->
-![Snake animation](https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20For%20Stopping%20By!&fontSize=42&fontColor=fff&animation=twinkling" width="100%"/>
-
-### 💡 "The only way to do great work is to love what you do" 
-
-**⭐ Star some repos if you find them interesting! Let's build the future together! ⭐**
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-
-</div>
+<br>
