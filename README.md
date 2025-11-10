@@ -198,8 +198,6 @@ console.log(Mehanth.currentlyDoing());
 
 ## 📊 LIVE BATTLE STATISTICS
 
-<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="300">
-
 <!-- Ultimate Stats Grid -->
 <table>
   <tr>
@@ -250,29 +248,6 @@ console.log(Mehanth.currentlyDoing());
 
 <div align="center">
 
-## 🐍 WATCH MY CONTRIBUTION SNAKE DEVOUR THE COMMITS!
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/itz-mehanth/itz-mehanth/output/github-contribution-grid-snake.svg">
-</picture>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
-
-</div>
-
----
-
-<div align="center">
-
-## 📈 LIVE CODING STATS - WAKATIME INTEGRATION
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=itz-mehanth&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=FFFFFF&layout=compact&langs_count=10&custom_title=Weekly%20Coding%20Stats" />
-
-<!-- Detailed Language Stats -->
-<br><br>
-
 ```text
 🌞 Morning    ████████░░░░░░░░░░░░   35%
 🌆 Daytime    ████████████░░░░░░░░   50%
@@ -292,25 +267,9 @@ console.log(Mehanth.currentlyDoing());
 
 <div align="center">
 
-## 🎵 CURRENTLY VIBING TO
-
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=31l5of4aqf5z3ksdzrazflhfgq6a&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=00F7F4&bar_color_cover=true"/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="300">
-
-</div>
-
----
-
-<div align="center">
-
 ## 💬 DEVELOPER WISDOM OF THE DAY
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House"/>
-
-<br>
-
-<img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder&qColor=%2300F7F4&aColor=%23FFFFFF"/>
 
 </div>
 
@@ -388,19 +347,7 @@ console.log(Mehanth.currentlyDoing());
 
 <div align="center">
 
-## 🎲 GITHUB METRICS - THE COMPLETE PICTURE
-
-<img src="https://metrics.lecoq.io/itz-mehanth?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&languages=1&lines=1&habits=1&achievements=1&notable=1&discussions=1&followup=1&isocalendar.duration=half-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.trim=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.from=organization&notable.repositories=false&discussions.categories=true&config.timezone=Asia%2FKolkata" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
 ## 💡 FUN FACTS & EASTER EGGS
-
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="400">
 
 ```yaml
 fun_facts:
@@ -416,32 +363,6 @@ easter_egg:
   secret: "If you're reading this, you're awesome! ⭐"
   reward: "Leave a star on my repos and I'll return the favor!"
 ```
-
-</div>
-
----
-
-<div align="center">
-
-## 🌟 SUPPORT THE MISSION
-
-<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300">
-
-### Star the repos if you like what you see! ⭐
-
-<a href="https://github.com/itz-mehanth?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-00F7F4?style=for-the-badge&logo=github&logoColor=black&labelColor=181717"/>
-</a>
-
-<br><br>
-
-<!-- Sponsor Options -->
-<a href="https://www.buymeacoffee.com/mehanth">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
-</a>
-<a href="https://ko-fi.com/mehanth">
-  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
-</a>
 
 </div>
 
