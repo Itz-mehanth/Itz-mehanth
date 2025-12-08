@@ -1,19 +1,77 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#00f2ff;stop-opacity:0.3" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
   <style>
-    .scene { perspective: 400px; transform-style: preserve-3d; }
-    .cube {
-      transform-origin: 100px 100px;
-      animation: spin 4s infinite linear;
-      transform-style: preserve-3d;
+    /* The Scene Container */
+    .scene {
+      perspective: 800px; /* Deep perspective */
+      transform-origin: 200px 200px;
     }
-    .face { position: absolute; width: 80px; height: 80px; fill: rgba(0, 255, 0, 0.2); stroke: #0f0; stroke-width: 2; }
-    @keyframes spin { from { transform: rotateX(0) rotateY(0); } to { transform: rotateX(360deg) rotateY(360deg); } }
+
+    /* The Object Wrapper */
+    .cube {
+      transform-style: preserve-3d;
+      transform-origin: 200px 200px;
+      animation: tumble 8s infinite linear;
+    }
+
+    /* Common Face Styles */
+    .face {
+      position: absolute;
+      fill: url(#glass);
+      stroke: #00f2ff;
+      stroke-width: 2;
+      filter: url(#glow);
+      opacity: 0.8;
+      /* This is the magic. It tells the browser these are distinct planes. */
+      backface-visibility: visible; 
+    }
+
+    /* Keyframes for a complex 3-axis rotation */
+    @keyframes tumble {
+      0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+      25% { transform: rotateX(90deg) rotateY(45deg) rotateZ(45deg); }
+      50% { transform: rotateX(180deg) rotateY(0deg) rotateZ(90deg); }
+      75% { transform: rotateX(270deg) rotateY(-45deg) rotateZ(135deg); }
+      100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(180deg); }
+    }
   </style>
+
   <g class="scene">
     <g class="cube">
-      <rect x="60" y="60" width="80" height="80" class="face" transform="translate(0,0)"/>
-      <rect x="60" y="60" width="80" height="80" class="face" transform="translate(0,0) rotate(90 100 100)"/>
-      <rect x="60" y="60" width="80" height="80" class="face" transform="rotate(45 100 100)"/>
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="translate(0, 0) translateZ(50px)" />
+
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="rotateY(180deg) translateZ(50px)" />
+
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="rotateY(90deg) translateZ(50px)" />
+
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="rotateY(-90deg) translateZ(50px)" />
+
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="rotateX(90deg) translateZ(50px)" />
+
+      <rect x="150" y="150" width="100" height="100" class="face" 
+            transform="rotateX(-90deg) translateZ(50px)" />
+            
+      <circle cx="200" cy="200" r="20" fill="#fff" filter="url(#glow)">
+         <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+      </circle>
     </g>
   </g>
 </svg>
