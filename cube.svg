@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .scene { perspective: 400px; transform-style: preserve-3d; }
+    .cube {
+      transform-origin: 100px 100px;
+      animation: spin 4s infinite linear;
+      transform-style: preserve-3d;
+    }
+    .face { position: absolute; width: 80px; height: 80px; fill: rgba(0, 255, 0, 0.2); stroke: #0f0; stroke-width: 2; }
+    @keyframes spin { from { transform: rotateX(0) rotateY(0); } to { transform: rotateX(360deg) rotateY(360deg); } }
+  </style>
+  <g class="scene">
+    <g class="cube">
+      <rect x="60" y="60" width="80" height="80" class="face" transform="translate(0,0)"/>
+      <rect x="60" y="60" width="80" height="80" class="face" transform="translate(0,0) rotate(90 100 100)"/>
+      <rect x="60" y="60" width="80" height="80" class="face" transform="rotate(45 100 100)"/>
+    </g>
+  </g>
+</svg>
