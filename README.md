@@ -1,5 +1,7 @@
 <div align="center">
 
+![Trojan Cube](cube.svg)
+
 <!-- EPIC Glitch Effect Animated Title -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=75&duration=1500&pause=1000&color=00F7F4&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=200&lines=%E2%9A%A1+MEHANTH+%E2%9A%A1;THE+CODE+ARCHITECT;AI+WIZARD+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F+WEB+SORCERER+%F0%9F%94%AE" alt="Epic Title" />
 
