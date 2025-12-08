@@ -245,9 +245,6 @@ console.log(Mehanth.currentlyDoing());
 <a href="https://github.com/itz-mehanth">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=00F7F4"/>
 </a>
-<a href="https://twitter.com">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&color=00F7F4"/>
-</a>
 
 <br><br>
 
