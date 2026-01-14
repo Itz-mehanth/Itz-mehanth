@@ -203,20 +203,11 @@ console.log(Mehanth.currentlyDoing());
 <!-- Activity Graph with Glow -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-mehanth&custom_title=MEHANTH'S%20CONTRIBUTION%20GRAPH&bg_color=0D1117&color=00F7F4&line=00F7F4&point=FF6D00&area_color=00F7F4&area=true&hide_border=true&theme=react-dark" width="100%"/>
 
-<!-- Live Streak (styled to match) -->
-<img src="https://github-readme-streak-stats.herokuapp.com
-/?user=itz-mehanth
-&theme=radical
-&hide_border=true
-&background=0D1117
-&stroke=00F7F4
-&ring=00F7F4
-&fire=FF6D00
-&currStreakLabel=00F7F4
-&sideLabels=00F7F4
-&currStreakNum=FFFFFF
-&sideNums=FFFFFF"
-width="100%"/>
+<!-- Live Streak -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&theme=radical&hide_border=true&background=0D1117&stroke=00F7F4&ring=00F7F4&fire=FF6D00&currStreakLabel=00F7F4&sideLabels=00F7F4&currStreakNum=FFFFFF&sideNums=FFFFFF"/>
+</p>
+
 
 <!-- Metrics with Animation -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itz-mehanth&theme=radical" width="100%"/>
