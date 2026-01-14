@@ -199,25 +199,24 @@ console.log(Mehanth.currentlyDoing());
 
 ## 📊 LIVE BATTLE STATISTICS
 
-<!-- Ultimate Stats Grid -->
-<table>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=itz-mehanth&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=FFFFFF&ring_color=00F7F4" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=itz-mehanth&theme=radical&hide_border=true&background=0D1117&stroke=00F7F4&ring=00F7F4&fire=FF6D00&currStreakLabel=FFFFFF&sideLabels=00F7F4&currStreakNum=FFFFFF&sideNums=00F7F4" width="100%"/>
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-mehanth&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=FFFFFF&langs_count=10" width="100%"/>
-    </td>
-  </tr>
-</table>
 
 <!-- Activity Graph with Glow -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-mehanth&custom_title=MEHANTH'S%20CONTRIBUTION%20GRAPH&bg_color=0D1117&color=00F7F4&line=00F7F4&point=FF6D00&area_color=00F7F4&area=true&hide_border=true&theme=react-dark" width="100%"/>
+
+<!-- Live Streak (styled to match) -->
+<img src="https://github-readme-streak-stats.herokuapp.com
+/?user=itz-mehanth
+&theme=radical
+&hide_border=true
+&background=0D1117
+&stroke=00F7F4
+&ring=00F7F4
+&fire=FF6D00
+&currStreakLabel=00F7F4
+&sideLabels=00F7F4
+&currStreakNum=FFFFFF
+&sideNums=FFFFFF"
+width="100%"/>
 
 <!-- Metrics with Animation -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itz-mehanth&theme=radical" width="100%"/>
