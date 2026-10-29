@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="290" height="84" viewBox="0 0 290 84" role="img" aria-label="portfolio: mehanth.vercel.app"><title>portfolio: mehanth.vercel.app</title><style></style><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00F7F4" stop-opacity=".16"/>
-          <stop offset="1" stop-color="#00F7F4" stop-opacity="0"/></linearGradient></defs>
-        <rect x=".5" y=".5" width="289" height="83" rx="16" fill="#0B0E17" stroke="#1C2333"/>
-        <rect x="1" y="1" width="288" height="82" rx="16" fill="url(#g)"/>
-        <rect x="0" y="20" width="3" height="44" rx="1.5" fill="#00F7F4"/>
-        <text x="22" y="34" font-family="'JetBrains Mono', 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5" fill="#00F7F4">PORTFOLIO</text>
-        <text x="22" y="60" font-family="'JetBrains Mono', 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3">mehanth.vercel.app</text>
-        <text x="270" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Inter, Arial, sans-serif" font-size="18" fill="#00F7F4">↗
-          <animate attributeName="opacity" values=".4;1;.4" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></text></svg>
