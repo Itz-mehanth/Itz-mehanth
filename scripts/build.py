@@ -190,9 +190,6 @@ EXPERIENCE = [
         "Implemented queue-based task processing, persistent state, human-in-the-loop validation and structured auditing.",
         "Proposed future architecture directions for the platform and was recognised by engineers for the improvements identified.",
     ], tags=["Python", "LangGraph", "PostgreSQL", "pgvector"]),
-    dict(when="Mar – Apr 2025", org="Strategy Fox", role="Web Development Intern", points=[
-        "Developed interactive web apps and 3D experiences with Three.js and Blender, wiring 3D assets and real-time interaction into production applications.",
-    ], tags=["Three.js", "Blender", "WebGL"]),
 ]
 
 
@@ -227,13 +224,13 @@ def experience(t):
         b.insert(1, f'<circle cx="{rail}" cy="{dy + 4}" r="5.5" fill="{fill}" stroke="{t["accent"] if k == 0 else t["muted"]}" stroke-width="1.5"/>')
     b.insert(0, f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="20" fill="{t["panel"]}" stroke="{t["edge"]}"/>')
     write(t, "experience.svg", svg(W, H, "".join(b), FADE_UP,
-                                   "Experience: Software Engineering Intern at Visa (2026), Web Development Intern at Strategy Fox (2025)"))
+                                   "Experience: " + "; ".join(f"{e['role']} at {e['org'].split('  ')[0]} ({e['when']})" for e in EXPERIENCE)))
 
 
 # ---------------------------------------------------------------- section headers
 
 SECTIONS = [
-    ("experience", "01", "Experience", "internships"),
+    ("experience", "01", "Experience", "industry"),
     ("work", "02", "Selected work", "projects & products"),
     ("about", "03", "About", "~/whoami"),
     ("stack", "04", "Toolbox", "what I reach for"),
@@ -277,7 +274,7 @@ def terminal(t):
         ("cmd", "cat achievements.txt"),
         ("out", [("— ", t["accent"]), ("3× hackathon winner, 2026", t["text"]), ("  ·  Best Performance at TechathonX", t["muted"])]),
         ("out", [("— ", t["accent"]), ("NPTEL top 1% in C++", t["text"]), ("  ·  top 5% in competitive programming", t["muted"])]),
-        ("out", [("— ", t["accent"]), ("Deputy Lead, AR/VR & Game Dev", t["text"]), ("  ·  SSN Coding Club", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("Lead, AR/VR & Game Dev Club", t["text"]), ("  ·  SSN College of Engineering", t["muted"])]),
         ("cmd", "echo $MOTTO"),
         ("out", [("real-world problems, solved with code.", t["text"])]),
         ("cmd", ""),
@@ -513,7 +510,7 @@ def readme():
           for p in PROJECTS],
         "</p>", "", "<br/>", "", header("about"), "",
         pic("terminal.svg", "B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. "
-                            "3x hackathon winner in 2026, NPTEL top 1% in C++, Deputy Lead for AR/VR and Game Dev at SSN Coding Club."),
+                            "3x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."),
         "", "<br/><br/>", "", header("stack"), "",
         pic("stack.svg", ", ".join(NAMES.get(s, s.capitalize()) for row in ROWS for s in row)),
         "", "<br/>", "", header("activity"), "",

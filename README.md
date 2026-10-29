@@ -12,7 +12,7 @@
 
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/headers/experience.svg"/><img src="assets/dark/headers/experience.svg" width="100%" alt="01 Experience"/></picture>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/experience.svg"/><img src="assets/dark/experience.svg" width="100%" alt="Software Engineering Intern, Visa Inc. (May – Jul 2026): Built an agentic AI system for automated dispute-case resolution, reducing reliance on human analysts in decision-making workflows. Designed a future-ready API architecture to fix flaws in existing service internals: orchestration, state, validation and downstream processing. Implemented queue-based task processing, persistent state, human-in-the-loop validation and structured auditing. Proposed future architecture directions for the platform and was recognised by engineers for the improvements identified.; Web Development Intern, Strategy Fox (Mar – Apr 2025): Developed interactive web apps and 3D experiences with Three.js and Blender, wiring 3D assets and real-time interaction into production applications."/></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/experience.svg"/><img src="assets/dark/experience.svg" width="100%" alt="Software Engineering Intern, Visa Inc. (May – Jul 2026): Built an agentic AI system for automated dispute-case resolution, reducing reliance on human analysts in decision-making workflows. Designed a future-ready API architecture to fix flaws in existing service internals: orchestration, state, validation and downstream processing. Implemented queue-based task processing, persistent state, human-in-the-loop validation and structured auditing. Proposed future architecture directions for the platform and was recognised by engineers for the improvements identified."/></picture>
 
 <br/><br/>
 
@@ -31,7 +31,7 @@
 
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/headers/about.svg"/><img src="assets/dark/headers/about.svg" width="100%" alt="03 About"/></picture>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg"/><img src="assets/dark/terminal.svg" width="100%" alt="B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. 3x hackathon winner in 2026, NPTEL top 1% in C++, Deputy Lead for AR/VR and Game Dev at SSN Coding Club."/></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg"/><img src="assets/dark/terminal.svg" width="100%" alt="B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. 3x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."/></picture>
 
 <br/><br/>
 
