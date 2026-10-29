@@ -142,7 +142,7 @@ def hero(t):
              f'<text x="{x0}" y="344">CS undergrad at SSN College of Engineering. Most recently,</text>'
              f'<text x="{x0}" y="370">building agentic AI as a software engineering intern at Visa.</text></g>')
 
-    items = [("ex-Visa SWE intern", False), ("3× hackathon winner", False), ("mehanth.com", False)]
+    items = [("ex-Visa SWE intern", False), ("4× hackathon winner", False), ("mehanth.com", False)]
     g, x = [f'<g class="up" style="animation-delay:.45s">'], x0
     for text, live in items:
         if live:
@@ -162,7 +162,7 @@ def hero(t):
 
 HIGHLIGHTS = [
     ("Visa", "SWE intern · agentic AI"),
-    ("3×", "hackathon wins in 2026"),
+    ("4×", "hackathon wins in 2026"),
     ("5k+", "VS Code extension downloads"),
     ("Top 1%", "NPTEL · C++"),
 ]
@@ -272,7 +272,7 @@ def terminal(t):
         ("out", [("— ", t["accent"]), ("backend & data      ", t["text"]), ("fastapi, spring boot, kafka, spark", t["muted"])]),
         ("out", [("— ", t["accent"]), ("3D & XR             ", t["text"]), ("three.js, webxr, blender", t["muted"])]),
         ("cmd", "cat achievements.txt"),
-        ("out", [("— ", t["accent"]), ("3× hackathon winner, 2026", t["text"]), ("  ·  Best Performance at TechathonX", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("4× hackathon winner, 2026", t["text"]), ("  ·  Best Performance at TechathonX", t["muted"])]),
         ("out", [("— ", t["accent"]), ("NPTEL top 1% in C++", t["text"]), ("  ·  top 5% in competitive programming", t["muted"])]),
         ("out", [("— ", t["accent"]), ("Lead, AR/VR & Game Dev Club", t["text"]), ("  ·  SSN College of Engineering", t["muted"])]),
         ("cmd", "echo $MOTTO"),
@@ -510,7 +510,7 @@ def readme():
           for p in PROJECTS],
         "</p>", "", "<br/>", "", header("about"), "",
         pic("terminal.svg", "B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. "
-                            "3x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."),
+                            "4x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."),
         "", "<br/><br/>", "", header("stack"), "",
         pic("stack.svg", ", ".join(NAMES.get(s, s.capitalize()) for row in ROWS for s in row)),
         "", "<br/>", "", header("activity"), "",

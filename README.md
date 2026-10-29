@@ -6,7 +6,7 @@
 
 <a href="https://mehanth.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/hero.svg"/><img src="assets/dark/hero.svg" width="100%" alt="Mehanth T, software engineer. I build agentic AI systems, real-time data pipelines, 3D worlds for the web and tools developers install."/></picture></a>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/highlights.svg"/><img src="assets/dark/highlights.svg" width="100%" alt="Visa SWE intern · agentic AI · 3× hackathon wins in 2026 · 5k+ VS Code extension downloads · Top 1% NPTEL · C++"/></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/highlights.svg"/><img src="assets/dark/highlights.svg" width="100%" alt="Visa SWE intern · agentic AI · 4× hackathon wins in 2026 · 5k+ VS Code extension downloads · Top 1% NPTEL · C++"/></picture>
 
 <br/><br/>
 
@@ -31,7 +31,7 @@
 
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/headers/about.svg"/><img src="assets/dark/headers/about.svg" width="100%" alt="03 About"/></picture>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg"/><img src="assets/dark/terminal.svg" width="100%" alt="B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. 3x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."/></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg"/><img src="assets/dark/terminal.svg" width="100%" alt="B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. 4x hackathon winner in 2026, NPTEL top 1% in C++, Lead of the AR/VR and Game Dev Club at SSN."/></picture>
 
 <br/><br/>
 
