@@ -97,7 +97,7 @@ def _font_css(body):
             continue
         if fam == "GM" and weight != 400 and f'font-weight="{weight}"' not in body:
             continue
-        font = TTFont(os.path.join(FONT_DIR, file + ".ttf"))
+        font = TTFont(os.path.join(FONT_DIR, file + ".ttf"), recalcTimestamp=False)  # keep output byte-stable
         opts = subset.Options()
         opts.flavor = "woff"
         opts.layout_features = ["kern", "liga", "calt", "tnum"]
