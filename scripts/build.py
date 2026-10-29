@@ -1,7 +1,8 @@
 """Generates every static SVG in assets/{dark,light}/. Run: python scripts/build.py"""
 import math
+import os
 
-from common import MONO, SANS, SERIF, THEMES, esc, icon, measure, svg, wrap, write
+from common import MONO, ROOT, SANS, SERIF, THEMES, esc, icon, measure, svg, wrap, write
 
 # ---------------------------------------------------------------- 3D wireframes
 
@@ -80,7 +81,7 @@ def label(x, y, text, color, size=11.5, anchor="start", spacing=1.6):
 
 # ---------------------------------------------------------------- hero
 
-PHRASES = ["3D worlds for the web", "AI agents that work", "AR you can walk into", "HTML in 23 languages"]
+PHRASES = ["agentic AI systems", "real-time data pipelines", "3D worlds for the web", "tools developers install"]
 
 
 def hero(t):
@@ -125,9 +126,9 @@ def hero(t):
 
     # copy
     b.append(f'<g class="up"><rect x="{x0}" y="66" width="8" height="8" fill="{t["accent"]}"/>'
-             f'{label(x0 + 20, 74, "Mehanth T  —  Chennai, India", t["muted"], 12, spacing=2)}</g>')
+             f'{label(x0 + 20, 74, "Mehanth T  —  Software engineer  —  Chennai", t["muted"], 12, spacing=2)}</g>')
     b.append(f'<text class="up" style="animation-delay:.1s" x="{x0 - 3}" y="180" font-family="{SERIF}" '
-             f'font-size="88" letter-spacing="-1.5" fill="{t["text"]}">I make</text>')
+             f'font-size="88" letter-spacing="-1.5" fill="{t["text"]}">I build</text>')
     widest = max(measure(p, SERIF, 88, italic=True, spacing=-1.5) for p in PHRASES)
     size = min(88, 88 * 600 / widest)
     b.append(f'<clipPath id="line"><rect x="{x0 - 10}" y="{200}" width="660" height="{size + 20:.0f}"/></clipPath>'
@@ -138,10 +139,10 @@ def hero(t):
     b.append("</g>")
     b.append(f'<path class="draw" d="M{x0} 306H{x0 + 560}" stroke="{t["edge"]}"/>')
     b.append(f'<g class="up" style="animation-delay:.3s" font-family="{SANS}" font-size="18" fill="{t["muted"]}">'
-             f'<text x="{x0}" y="344">Building scalable apps, automations and intelligent systems.</text>'
-             f'<text x="{x0}" y="370">Real-world problems, solved with code.</text></g>')
+             f'<text x="{x0}" y="344">CS undergrad at SSN College of Engineering. Most recently,</text>'
+             f'<text x="{x0}" y="370">building agentic AI as a software engineering intern at Visa.</text></g>')
 
-    items = [("Open to collaborate", True), ("60+ public repos", False), ("mehanth.vercel.app", False)]
+    items = [("ex-Visa SWE intern", False), ("3× hackathon winner", False), ("mehanth.com", False)]
     g, x = [f'<g class="up" style="animation-delay:.45s">'], x0
     for text, live in items:
         if live:
@@ -154,17 +155,90 @@ def hero(t):
     g.append("</g>")
     b += g
     write(t, "hero.svg", svg(W, H, "".join(b), style,
-                             "Mehanth T — I make 3D worlds for the web, AI agents, AR apps and HTML in 23 languages"))
+                             "Mehanth T — software engineer building agentic AI, data pipelines, 3D for the web and developer tools"))
+
+
+# ---------------------------------------------------------------- highlights + experience
+
+HIGHLIGHTS = [
+    ("Visa", "SWE intern · agentic AI"),
+    ("3×", "hackathon wins in 2026"),
+    ("5k+", "VS Code extension downloads"),
+    ("Top 1%", "NPTEL · C++"),
+]
+
+
+def highlights(t):
+    W, H = 1200, 150
+    col = W / len(HIGHLIGHTS)
+    b = [f'<path d="M0 .5H{W}M0 {H - .5}H{W}" stroke="{t["edge"]}"/>']
+    for k, (value, text) in enumerate(HIGHLIGHTS):
+        x = k * col + (8 if k == 0 else 32)
+        if k:
+            b.append(f'<path d="M{k * col:.0f} 28V{H - 28}" stroke="{t["edge"]}"/>')
+        b.append(f'<g class="up" style="animation-delay:{k * .08:.2f}s">'
+                 f'<text x="{x:.0f}" y="84" font-family="{SERIF}" font-size="60" letter-spacing="-1.2" '
+                 f'fill="{t["accent"] if k == 0 else t["text"]}">{esc(value)}</text>'
+                 f'{label(x + 2, 114, text, t["muted"], 11)}</g>')
+    write(t, "highlights.svg", svg(W, H, "".join(b), FADE_UP, " · ".join(f"{v} {s}" for v, s in HIGHLIGHTS)))
+
+
+EXPERIENCE = [
+    dict(when="May – Jul 2026", org="Visa Inc.  —  Bangalore", role="Software Engineering Intern", points=[
+        "Built an agentic AI system for automated dispute-case resolution, reducing reliance on human analysts in decision-making workflows.",
+        "Designed a future-ready API architecture to fix flaws in existing service internals: orchestration, state, validation and downstream processing.",
+        "Implemented queue-based task processing, persistent state, human-in-the-loop validation and structured auditing.",
+        "Proposed future architecture directions for the platform and was recognised by engineers for the improvements identified.",
+    ], tags=["Python", "LangGraph", "PostgreSQL", "pgvector"]),
+    dict(when="Mar – Apr 2025", org="Strategy Fox", role="Web Development Intern", points=[
+        "Developed interactive web apps and 3D experiences with Three.js and Blender, wiring 3D assets and real-time interaction into production applications.",
+    ], tags=["Three.js", "Blender", "WebGL"]),
+]
+
+
+def experience(t):
+    W = 1200
+    rx, rw = 300, 852
+    b, y, dots = [], 60, []
+    for k, e in enumerate(EXPERIENCE):
+        top = y
+        g = [f'<g class="up" style="animation-delay:{k * .15:.2f}s">',
+             label(48, y + 8, e["when"], t["muted"], 11.5),
+             label(rx, y + 8, e["org"], t["accent"], 11.5),
+             f'<text x="{rx - 2}" y="{y + 54}" font-family="{SERIF}" font-size="40" letter-spacing="-.6" '
+             f'fill="{t["text"]}">{esc(e["role"])}</text>']
+        y += 92
+        for pt in e["points"]:
+            lines = wrap(pt, rw - 26, family=SANS, size=16.5)
+            g.append(f'<text x="{rx}" y="{y}" font-family="{SANS}" font-size="16.5" fill="{t["accent"]}">—</text>')
+            g += [f'<text x="{rx + 26}" y="{y + i * 25}" font-family="{SANS}" font-size="16.5" '
+                  f'fill="{t["muted"]}">{esc(l)}</text>' for i, l in enumerate(lines)]
+            y += 25 * len(lines) + 9
+        g.append(f'<text x="{rx}" y="{y + 16}" font-family="{MONO}" font-size="12.5" fill="{t["dim"]}">'
+                 f'{esc("  /  ".join(e["tags"]))}</text></g>')
+        y += 76
+        dots.append(top)
+        b += g
+    H = y - 20
+    rail = 252
+    b.insert(0, f'<path d="M{rail} {dots[0] + 4}V{H - 40}" stroke="{t["edge"]}"/>')
+    for k, dy in enumerate(dots):
+        fill = t["accent"] if k == 0 else t["panel"]
+        b.insert(1, f'<circle cx="{rail}" cy="{dy + 4}" r="5.5" fill="{fill}" stroke="{t["accent"] if k == 0 else t["muted"]}" stroke-width="1.5"/>')
+    b.insert(0, f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="20" fill="{t["panel"]}" stroke="{t["edge"]}"/>')
+    write(t, "experience.svg", svg(W, H, "".join(b), FADE_UP,
+                                   "Experience: Software Engineering Intern at Visa (2026), Web Development Intern at Strategy Fox (2025)"))
 
 
 # ---------------------------------------------------------------- section headers
 
 SECTIONS = [
-    ("about", "01", "About", "~/whoami"),
-    ("work", "02", "Selected work", "8 of 60+ repositories"),
-    ("stack", "03", "Toolbox", "what I reach for"),
-    ("activity", "04", "Activity", "rebuilt nightly by GitHub Actions"),
-    ("connect", "05", "Say hello", "inbox is open"),
+    ("experience", "01", "Experience", "internships"),
+    ("work", "02", "Selected work", "projects & products"),
+    ("about", "03", "About", "~/whoami"),
+    ("stack", "04", "Toolbox", "what I reach for"),
+    ("activity", "05", "Activity", "rebuilt nightly by GitHub Actions"),
+    ("connect", "06", "Say hello", "inbox is open"),
 ]
 
 
@@ -195,12 +269,15 @@ def terminal(t):
     plen = sum(len(s) for s, _ in prompt)
     script = [
         ("cmd", "whoami"),
-        ("out", [("Mehanth T", t["text"]), ("  ·  computer science engineer  ·  Chennai, India", t["muted"])]),
+        ("out", [("Mehanth T", t["text"]), ("  ·  B.Tech CSE, SSN College of Engineering ’27  ·  Chennai", t["muted"])]),
         ("cmd", "cat focus.md"),
-        ("out", [("— ", t["accent"]), ("3D + XR on the web      ", t["text"]), ("three.js, react-three-fiber, webxr", t["muted"])]),
-        ("out", [("— ", t["accent"]), ("AI agents & automation  ", t["text"]), ("python, whisper, transformers", t["muted"])]),
-        ("out", [("— ", t["accent"]), ("full-stack products     ", t["text"]), ("react, vue, node, flask, flutter", t["muted"])]),
-        ("out", [("— ", t["accent"]), ("games                   ", t["text"]), ("godot, unity, android, webgl", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("agentic AI          ", t["text"]), ("langgraph, pgvector, multi-agent systems", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("backend & data      ", t["text"]), ("fastapi, spring boot, kafka, spark", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("3D & XR             ", t["text"]), ("three.js, webxr, blender", t["muted"])]),
+        ("cmd", "cat achievements.txt"),
+        ("out", [("— ", t["accent"]), ("3× hackathon winner, 2026", t["text"]), ("  ·  Best Performance at TechathonX", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("NPTEL top 1% in C++", t["text"]), ("  ·  top 5% in competitive programming", t["muted"])]),
+        ("out", [("— ", t["accent"]), ("Deputy Lead, AR/VR & Game Dev", t["text"]), ("  ·  SSN Coding Club", t["muted"])]),
         ("cmd", "echo $MOTTO"),
         ("out", [("real-world problems, solved with code.", t["text"])]),
         ("cmd", ""),
@@ -262,30 +339,30 @@ def terminal(t):
 # ---------------------------------------------------------------- project cards
 
 PROJECTS = [
-    dict(slug="bharat-html", title="Bharat HTML", kind="language tooling", icon="typescript",
-         desc="Write HTML and CSS in 23 Indian languages. Learning to code shouldn't require learning English first.",
-         tags=["TypeScript", "transpiler", "i18n"], stars=9),
-    dict(slug="gh9b", title="GH9-B", kind="webxr · survival horror", icon="threedotjs",
+    dict(slug="herbal-garden", title="Virtual Herbal Garden", kind="webxr · agentic AI", icon="threedotjs",
+         href="https://vrroom.netlify.app", cta="Live", metric="100+ concurrent users",
+         desc="A collaborative WebXR garden with 10 specialised AI agents, real weather and soil data, and geo-referenced crop simulation.",
+         tags=["WebXR", "WebRTC", "WebSockets", "Node.js"]),
+    dict(slug="stock-pipeline", title="Real-Time Stock Pipeline", kind="distributed systems", icon="apachekafka",
+         href="https://github.com/Itz-mehanth/LiveStock", cta="Repo", metric="streaming + ML",
+         desc="Kafka into Spark Streaming into PostgreSQL, with Spark MLlib retraining, a Flask API and a live Angular dashboard.",
+         tags=["Kafka", "PySpark", "PostgreSQL", "Docker"]),
+    dict(slug="vscode", title="VS Code Extensions", kind="developer products", icon="typescript",
+         href="https://marketplace.visualstudio.com/publishers/Mehanth", cta="Marketplace", metric="5k+ downloads",
+         desc="Bharat HTML/CSS lets you code in 23 Indian languages; HDR/EXR 360 Viewer renders HDR images on the GPU.",
+         tags=["TypeScript", "VS Code API", "WebGL"]),
+    dict(slug="retempla", title="ReTempla", kind="automation SaaS", icon="fastapi",
+         href="https://github.com/Itz-mehanth/Retempla", cta="Repo", metric="API-first",
+         desc="Generates and emails formatted DOCX certificates to hundreds of recipients per session, with API keys and analytics.",
+         tags=["React", "FastAPI", "Firebase", "MongoDB"]),
+    dict(slug="medplant", title="MedPlant", kind="on-device ML", icon="tensorflow",
+         href="https://github.com/Itz-mehanth/MedPlant", cta="Repo", metric="90%+ accuracy",
+         desc="Identifies medicinal plants fully offline, with edge inference on a Raspberry Pi and a multilingual Flutter app.",
+         tags=["TensorFlow", "Flutter", "Flask", "Raspberry Pi"]),
+    dict(slug="gh9b", title="GH9-B", kind="webxr · survival horror", icon="react",
+         href="https://github.com/Itz-mehanth/GH9B", cta="Repo", metric="playable in VR",
          desc="Survive a haunted hostel, in the browser or in VR. Physics, dynamic lighting and a steady supply of dread.",
          tags=["React Three Fiber", "WebXR", "physics"]),
-    dict(slug="crown", title="Crown of Sovereigns", kind="3D strategy game", icon="godotengine", live=True,
-         desc="A tile-laying strategy board game in full 3D. Place tiles, build cities and outwit your rivals.",
-         tags=["Godot 4.4", "GDScript"]),
-    dict(slug="aura", title="Aura", kind="voice AI agent", icon="huggingface",
-         desc="A voice-activated assistant that runs your machine. Whisper for ears, Transformers for a brain, Python for hands.",
-         tags=["Python", "Whisper", "Transformers"]),
-    dict(slug="4kwallpaper", title="4kwallpaper.ai", kind="multi-agent system", icon="python",
-         desc="An autonomous Instagram studio: a team of agents that creates, publishes and runs the community end to end.",
-         tags=["Python", "multi-agent", "automation"]),
-    dict(slug="ardrive", title="ARDrive", kind="augmented reality", icon="webgl", live=True,
-         desc="Your Google Drive in augmented reality. Browse and arrange files as objects floating in the room around you.",
-         tags=["WebXR", "Drive API", "3D UI"]),
-    dict(slug="retempla", title="Retempla", kind="document automation", icon="nodedotjs",
-         desc="Upload a raw .docx, pick a template and get a perfectly styled document back in seconds. API-first.",
-         tags=["full-stack", "docx engine", "REST API"]),
-    dict(slug="r3f-nav", title="r3f-nav-controls", kind="npm package", icon="react",
-         desc="Drop-in joystick, keyboard and pointer controls for React Three Fiber scenes. FPS, exploration, mobile.",
-         tags=["React", "R3F", "TypeScript"]),
 ]
 
 
@@ -296,27 +373,24 @@ def card(t, i, p):
     @keyframes ok{50%{opacity:.25}}
     """
     lines = wrap(p["desc"], W - 72, family=SANS, size=16.5)
+    assert len(lines) <= 3, f"{p['slug']}: description wraps to {len(lines)} lines"
     desc = "".join(f'<text x="34" y="{170 + k * 25}">{esc(l)}</text>' for k, l in enumerate(lines))
-    meta, mx = [], W - 34
-    link = "Repo ↗"
-    meta.append(f'<text x="{mx}" y="257" text-anchor="end" font-family="{SANS}" font-size="15" font-weight="500" '
-                f'fill="{t["accent"]}">{link}</text>')
-    mx -= measure(link, SANS, 15, 500) + 20
-    if p.get("stars"):
-        s = f"★ {p['stars']}"
-        meta.append(label(mx, 256, s, t["muted"], 11.5, "end"))
-        mx -= measure(s, MONO, 11.5, spacing=1.6) + 20
-    if p.get("live"):
-        meta.append(label(mx, 256, "live", t["muted"], 11.5, "end"))
-        mx -= measure("LIVE", MONO, 11.5, spacing=1.6) + 12
+    link = f"{p['cta']} ↗"
+    meta = [f'<text x="{W - 34}" y="257" text-anchor="end" font-family="{SANS}" font-size="15" font-weight="500" '
+            f'fill="{t["accent"]}">{esc(link)}</text>']
+    if p["cta"] == "Live":
+        mx = W - 34 - measure(link, SANS, 15, 500) - 12
         meta.append(f'<circle class="ok" cx="{mx:.0f}" cy="252" r="3.5" fill="{t["ok"]}"/>')
+    metric = (f'<text x="{W - 34}" y="50" text-anchor="end" font-family="{MONO}" font-size="11.5" letter-spacing="1.6" '
+              f'fill="{t["text"]}">{esc(p["metric"].upper())}</text>')
     body = f"""<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="14" fill="{t["panel"]}" stroke="{t["edge"]}"/>
     <g class="up" style="animation-delay:{.05 + (i % 2) * .1:.2f}s">
     {label(34, 50, f"{i + 1:02d}", t["accent"], 12, spacing=1)}
     {label(66, 50, p["kind"], t["muted"], 11.5)}
-    {icon(p["icon"], W - 52, 34, 18, t["dim"])}
+    {metric}
     <path d="M34 72H{W - 34}" stroke="{t["hair"]}"/>
     <text x="32" y="128" font-family="{SERIF}" font-size="46" letter-spacing="-.8" fill="{t["text"]}">{esc(p["title"])}</text>
+    {icon(p["icon"], W - 56, 100, 22, t["dim"])}
     <g font-family="{SANS}" font-size="16.5" fill="{t["muted"]}">{desc}</g>
     <path d="M34 228H{W - 34}" stroke="{t["hair"]}"/>
     <text x="34" y="257" font-family="{MONO}" font-size="12.5" fill="{t["muted"]}">{esc("  /  ".join(p["tags"]))}</text>
@@ -328,12 +402,12 @@ def card(t, i, p):
 # ---------------------------------------------------------------- tech marquee
 
 ROWS = [
-    ["python", "typescript", "javascript", "openjdk", "cplusplus", "dart", "react", "threedotjs",
-     "vuedotjs", "nextdotjs", "nodedotjs", "tailwindcss", "flask", "webgl"],
-    ["tensorflow", "pytorch", "opencv", "huggingface", "flutter", "android", "godotengine", "unity",
-     "blender", "mongodb", "postgresql", "firebase", "apachekafka", "apachespark", "docker", "git", "figma", "vercel"],
+    ["python", "openjdk", "cplusplus", "typescript", "javascript", "springboot", "fastapi", "flask",
+     "nodedotjs", "postgresql", "mysql", "mongodb"],
+    ["langgraph", "tensorflow", "opencv", "apachekafka", "apachespark", "docker", "react", "nextdotjs",
+     "flutter", "threedotjs", "blender", "git", "firebase"],
 ]
-NAMES = {"openjdk": "Java", "cplusplus": "C++", "threedotjs": "Three.js", "vuedotjs": "Vue", "nextdotjs": "Next.js",
+NAMES = {"springboot": "Spring Boot", "fastapi": "FastAPI", "langgraph": "LangGraph", "mysql": "MySQL", "openjdk": "Java","cplusplus": "C++", "threedotjs": "Three.js", "vuedotjs": "Vue", "nextdotjs": "Next.js",
          "nodedotjs": "Node.js", "tailwindcss": "Tailwind", "webgl": "WebGL", "huggingface": "Hugging Face",
          "godotengine": "Godot", "mongodb": "MongoDB", "postgresql": "PostgreSQL", "apachekafka": "Kafka",
          "apachespark": "Spark", "opencv": "OpenCV", "pytorch": "PyTorch", "tensorflow": "TensorFlow",
@@ -371,7 +445,7 @@ def stack(t):
 # ---------------------------------------------------------------- links + footer
 
 LINKS = [
-    ("portfolio", "mehanth.vercel.app"),
+    ("portfolio", "mehanth.com"),
     ("linkedin", "in/mehanth"),
     ("email", "mehanth362@gmail.com"),
     ("instagram", "@itz_mehanth"),
@@ -408,10 +482,60 @@ def footer(t):
     write(t, "footer.svg", svg(W, H, body, style, "Thanks for scrolling."))
 
 
+# ---------------------------------------------------------------- README
+
+LINK_HREFS = {"portfolio": "https://mehanth.com", "linkedin": "https://www.linkedin.com/in/mehanth-776892279",
+              "email": "mailto:mehanth362@gmail.com", "instagram": "https://instagram.com/itz_mehanth"}
+SNAKE = "https://raw.githubusercontent.com/Itz-mehanth/Itz-mehanth/output/github-snake"
+
+
+def pic(path, alt, width="100%"):
+    return (f'<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/{path}"/>'
+            f'<img src="assets/dark/{path}" width="{width}" alt="{esc(alt)}"/></picture>')
+
+
+def readme():
+    def header(key):
+        num, title = next((n, ti) for k, n, ti, _ in SECTIONS if k == key)
+        return pic(f"headers/{key}.svg", f"{num} {title}")
+
+    exp = "; ".join(f"{e['role']}, {e['org'].split('  ')[0]} ({e['when']}): " + " ".join(e["points"])
+                    for e in EXPERIENCE)
+    parts = [
+        "<!--\n  Every image on this page is an animated SVG with embedded fonts, in a dark and a light version.\n"
+        "  Generated by scripts/build.py (this README too). Edit the data there, then run:  python scripts/build.py\n"
+        "  assets/*/activity.svg is rebuilt nightly by .github/workflows/activity.yml\n-->\n",
+        f'<a href="https://mehanth.com">{pic("hero.svg", "Mehanth T, software engineer. I build agentic AI systems, real-time data pipelines, 3D worlds for the web and tools developers install.")}</a>',
+        "", pic("highlights.svg", " · ".join(f"{v} {s}" for v, s in HIGHLIGHTS)),
+        "", "<br/><br/>", "", header("experience"), "", pic("experience.svg", exp),
+        "", "<br/><br/>", "", header("work"), "", '<p align="center">',
+        *[f'  <a href="{p["href"]}">{pic(f"cards/{p["slug"]}.svg", f"{p["title"]}: {p["desc"]}", "49%")}</a>'
+          for p in PROJECTS],
+        "</p>", "", "<br/>", "", header("about"), "",
+        pic("terminal.svg", "B.Tech CSE at SSN College of Engineering, class of 2027. Focus: agentic AI, backend and data, 3D and XR. "
+                            "3x hackathon winner in 2026, NPTEL top 1% in C++, Deputy Lead for AR/VR and Game Dev at SSN Coding Club."),
+        "", "<br/><br/>", "", header("stack"), "",
+        pic("stack.svg", ", ".join(NAMES.get(s, s.capitalize()) for row in ROWS for s in row)),
+        "", "<br/>", "", header("activity"), "",
+        pic("activity.svg", "Contribution stats and a 3D skyline of the last year of commits"), "",
+        f'<picture><source media="(prefers-color-scheme: light)" srcset="{SNAKE}.svg"/>'
+        f'<img src="{SNAKE}-dark.svg" width="100%" alt="A snake eating my contribution graph"/></picture>',
+        "", "<br/><br/>", "", header("connect"), "", '<p align="center">',
+        *[f'  <a href="{LINK_HREFS[k]}">{pic(f"links/{k}.svg", f"{k}: {v}", "24%")}</a>' for k, v in LINKS],
+        "</p>", "", "<br/>", "", pic("footer.svg", "Thanks for scrolling."), "",
+    ]
+    with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(parts))
+    print("  README.md")
+
+
 if __name__ == "__main__":
+    readme()
     for theme in THEMES.values():
         print(f"building assets/{theme['name']}/")
         hero(theme)
+        highlights(theme)
+        experience(theme)
         headers(theme)
         terminal(theme)
         for i, p in enumerate(PROJECTS):
