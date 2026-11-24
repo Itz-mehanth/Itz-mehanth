@@ -43,7 +43,7 @@
 
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/headers/activity.svg?v=14c42d37"/><img src="assets/dark/headers/activity.svg?v=fee64480" width="100%" alt="05 Activity"/></picture>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/activity.svg?v=c56e34e1"/><img src="assets/dark/activity.svg?v=d17862b8" width="100%" alt="Contribution stats and a 3D skyline of the last year of commits"/></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/activity.svg?v=658c4c91"/><img src="assets/dark/activity.svg?v=8ecab9a2" width="100%" alt="Contribution stats and a 3D skyline of the last year of commits"/></picture>
 
 <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Itz-mehanth/Itz-mehanth/output/github-snake.svg"/><img src="https://raw.githubusercontent.com/Itz-mehanth/Itz-mehanth/output/github-snake-dark.svg" width="100%" alt="A snake eating my contribution graph"/></picture>
 
